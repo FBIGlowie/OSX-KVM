@@ -142,9 +142,16 @@ processors work just fine (even for macOS Sonoma).
 
   Choose a product to download (1-9): 7
   ```
-
   Note: Modern NVIDIA GPUs are supported on HighSierra but not on later
   versions of macOS.
+
+* Or simple Nix Builder.
+
+  ```
+  nix run github:FBIGlowie/OSX-KVM/ --no-write-lock-file -- catalina
+  ```
+  This will clone a repository at `./OSX-KVM`, give it the right permissions,
+  and automatically start `./OpenCore-Boot.sh`.
 
 * Convert the downloaded `BaseSystem.dmg` file into the `BaseSystem.img` file.
 

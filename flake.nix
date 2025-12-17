@@ -2,7 +2,6 @@
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
-  inputs.OSX-KVM.flake = false;
 
   outputs =
     { self

@@ -164,7 +164,7 @@ processors work just fine (even for macOS Sonoma).
 * Or use a simple nix command if you have it installed.
 
   ```
-  nix run github:FBIGlowie/OSX-KVM/ --no-write-lock-file -- catalina
+  nix run github:kholia/OSX-KVM/ --no-write-lock-file -- catalina
   ```
   This will clone a repository at `./OSX-KVM`, download the image,
   give everything the right permissions, and start `./OpenCore-Boot.sh`.

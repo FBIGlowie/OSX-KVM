@@ -161,7 +161,7 @@ processors work just fine (even for macOS Sonoma).
 
   NOTE: Create this HDD image file on a fast SSD/NVMe disk for best results.
 
-* Or simple Nix Builder.
+* Or use a simple nix command if you have it installed.
 
   ```
   nix run github:FBIGlowie/OSX-KVM/ --no-write-lock-file -- catalina

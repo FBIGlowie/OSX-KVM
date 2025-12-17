@@ -166,8 +166,8 @@ processors work just fine (even for macOS Sonoma).
   ```
   nix run github:FBIGlowie/OSX-KVM/ --no-write-lock-file -- catalina
   ```
-  This will clone a repository at `./OSX-KVM`, give it the right permissions,
-  and automatically start `./OpenCore-Boot.sh`.
+  This will clone a repository at `./OSX-KVM`, download the image,
+  give everything the right permissions, and start `./OpenCore-Boot.sh`.
 
 * Now you are ready to install macOS 🚀
 
